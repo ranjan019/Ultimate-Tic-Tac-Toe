@@ -16,7 +16,7 @@ In case of any queries, please post on moodle.iiit.ac.in
 import sys
 import random
 import signal
-from team9 import Player9
+import Player9 from team9
 class TimedOutExc(Exception):
         pass
 
@@ -400,7 +400,7 @@ if __name__ == '__main__':
 		obj2 = Player2()
 
 	elif option == '2':
-		obj1 = Player9()
+		obj1 = Player1()
 		obj2 = ManualPlayer()
 	elif option == '3':
 		obj1 = ManualPlayer()
